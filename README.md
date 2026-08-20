@@ -1,6 +1,6 @@
 # Recursive Descent Compiler — Zero-Dependency C Implementation
 
-A production-grade, handwritten compiler front-end built entirely in C99 with **zero external dependencies** — no Flex, no Bison, no ANTLR, no runtime scaffolding. Every component, from the DFA-driven lexer to the hash-chained symbol table, was engineered from scratch: raw pointer arithmetic, manual memory management, and deliberate architectural decisions at every layer. This is a fully operational language processor capable of lexical analysis, syntactic validation, semantic type-checking, and direct expression evaluation across integer, float, and string domains.
+A handwritten compiler front-end built entirely in a C-like language with **zero external dependencies** — no Flex, no Bison, no ANTLR, no runtime scaffolding. Every component, from lexer to the hash-chained symbol table, was engineered from scratch: raw pointer arithmetic, manual memory management, and deliberate architectural decisions at every layer. This is a fully operational language processor capable of lexical analysis, syntactic validation, semantic type-checking, and direct expression evaluation across integer, float, and string domains.
 
 ---
 
